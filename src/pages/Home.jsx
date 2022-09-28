@@ -17,6 +17,7 @@ import "../styles/home.css";
 
 import OurMembers from "../components/UI/OurMembers";
 import { ScrollToTop } from "../components/UI/ScrollToTop";
+import JobPosition from "../components/UI/JobPositions";
 // import About from "./About";
 
 const Home = () => {
@@ -184,6 +185,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <section>{/* <JobPosition /> */}</section>
       {/* =========== become a driver section ============ */}
 
       {/* =========== testimonial section =========== */}
