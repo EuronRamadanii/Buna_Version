@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 
 import { Container, Row, Col } from "reactstrap";
-import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
+import {  NavLink, useNavigate, useLocation } from "react-router-dom";
 import logo from "../../assets/all-images/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Dropdown from "react-bootstrap/Dropdown";
@@ -108,28 +108,19 @@ const Header = () => {
       <div className="header__middle">
         <Container>
           <Row style={{ justifyContent: "space-between" }}>
-            <Col lg="4" md="3" sm="4">
+            {/* <Col lg="4" md="3" sm="4">
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    {/* <i class="ri-car-line"></i> */}
-                    {/* <span>
+                    <i class="ri-car-line"></i>
+                    <span>
                       <br />
                       Context
-                    </span> */}
-                    <Col>
-                      <Row>
-                        <img
-                          src={logo}
-                          alt=""
-                          style={{ height: "100px", width: "200px" }}
-                        />
-                      </Row>
-                    </Col>
+                    </span>
                   </Link>
                 </h1>
               </div>
-            </Col>
+            </Col> */}
 
             <Col lg="3" md="3" sm="4">
               <div className="header__location d-flex align-items-center gap-2">
@@ -150,7 +141,7 @@ const Header = () => {
                 </span>
                 <div className="header__location-content">
                   <h4>Sunday to Friday</h4>
-                  <h6>10am - 7pm</h6>
+                  {/* <h6>10am - 7pm</h6> */}
                 </div>
               </div>
             </Col>
@@ -182,6 +173,15 @@ const Header = () => {
 
             <div className="navigation" ref={menuRef}>
               <div className="menu">
+                <Col>
+                  <Row>
+                    <img
+                      src={logo}
+                      alt=""
+                      style={{ height: "100px", width: "200px" }}
+                    />
+                  </Row>
+                </Col>
                 {/* {navLinks.map((item, index) => (
                   <NavLink
                     to={item.path}
@@ -208,11 +208,11 @@ const Header = () => {
                     variant="secondary"
                     // dropdown-basic
                     id="Euroni"
-                    // style={{ color: "#6b6600" }}
+                  // style={{ color: "#6b6600" }}
 
-                    // className={(navClass) =>
-                    //   navClass.isActive ? "nav__active nav__item" : "nav__item"
-                    // }
+                  // className={(navClass) =>
+                  //   navClass.isActive ? "nav__active nav__item" : "nav__item"
+                  // }
                   >
                     Leistungen
                   </Dropdown.Toggle>
