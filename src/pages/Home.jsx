@@ -156,20 +156,6 @@ const Home = () => {
       <section data-aos="zoom-in" data-aos-duration="1700">
         <Container>
           <Row>
-            <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Experts</h6>
-              <h2 className="section__title">Our Members</h2>
-            </Col>
-            <OurMembers />
-          </Row>
-        </Container>
-      </section>
-      {/* =========== become a driver section ============ */}
-
-      {/* =========== testimonial section =========== */}
-      <section data-aos="zoom-in" data-aos-duration="1700">
-        <Container>
-          <Row>
             <Col
               data-aos="zoom-in"
               data-aos-duration="1700"
@@ -183,6 +169,21 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <section data-aos="zoom-in" data-aos-duration="1700">
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="section__subtitle">Experts</h6>
+              <h2 className="section__title">Our Members</h2>
+            </Col>
+            <OurMembers />
+          </Row>
+        </Container>
+      </section>
+      {/* =========== become a driver section ============ */}
+
+      {/* =========== testimonial section =========== */}
+
 
       {/* =============== blog section =========== */}
       {/* <section data-aos="zoom-in" data-aos-duration="1700">
