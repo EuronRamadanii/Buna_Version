@@ -24,11 +24,11 @@ const ServiceItem = ({ item }) => (
     <NavLink to={item.path} style={{ textDecoration: "none" }}>
       <div className="service__item">
         <span className="mb-3 d-inline-block">
-          <i class={item.icon} />
+          <i style={{ fontSize: "6rem", marginLeft: "165%" }} class={item.icon} />
         </span>
 
-        <h6>{item.title}</h6>
-        <p className="section__description">{item.desc}</p>
+        <h6 style={{ textAlign: "center" }}>{item.title}</h6>
+        {/* <p className="section__description">{item.desc}</p> */}
       </div>
     </NavLink>
   </Col>

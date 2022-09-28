@@ -4,7 +4,7 @@ import HeroSlider from "../components/UI/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
 
 import { Container, Row, Col } from "reactstrap";
-import FindCarForm from "../components/UI/FindCarForm";
+// import FindCarForm from "../components/UI/FindCarForm";
 // import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
 // import carData from "../assets/data/carData";
@@ -32,7 +32,7 @@ const Home = () => {
       <section className="p-0 hero__slider-section">
         <HeroSlider />
 
-        <div className="hero__form">
+        {/* <div className="hero__form">
           <Container>
             <Row className="form__row contex">
               <Col lg="4" md="4">
@@ -50,13 +50,13 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
       </section>
       {/* =========== about section ================ */}
       {/* <AboutSection /> */}
       {/* <About /> */}
       {/* ========== services section ============ */}
-      <section>
+      {/* <section>
         <Container>
           <Row data-aos="zoom-in" data-aos-duration="1700">
             <Col lg="12" className="mb-5 text-center">
@@ -79,7 +79,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
       <section data-aos="zoom-in" data-aos-duration="1700">
         <Container>
           <Row data-aos="zoom-in" data-aos-duration="1700">
@@ -96,10 +96,11 @@ const Home = () => {
                 data-aos-duration="1700"
                 className="section__title"
               >
-                Popular Services
+                Services
               </h2>
             </Col>
-
+            {/* <Col>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, necessitatibus.</Col> */}
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit illo odit! Quisquam, explicabo ducimus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut officiis facilis voluptas ex optio magnam!</h3>
             <ServicesList />
           </Row>
         </Container>
