@@ -13,7 +13,7 @@ import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import Testimonial from "../components/UI/Testimonial";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import '../styles/home.css'
+import "../styles/home.css";
 
 import OurMembers from "../components/UI/OurMembers";
 import { ScrollToTop } from "../components/UI/ScrollToTop";
@@ -100,7 +100,12 @@ const Home = () => {
               </h2>
             </Col>
             {/* <Col>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, necessitatibus.</Col> */}
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit illo odit! Quisquam, explicabo ducimus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut officiis facilis voluptas ex optio magnam!</h3>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              sit illo odit! Quisquam, explicabo ducimus! Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Aut officiis facilis voluptas
+              ex optio magnam!
+            </h3>
             <ServicesList />
           </Row>
         </Container>
@@ -120,7 +125,6 @@ const Home = () => {
           </Row>
         </Container>
       </section> */}
-
 
       <Container style={{ marginTop: "50px", marginBottom: "50px" }}>
         <Row className="client-con2">
@@ -162,7 +166,7 @@ const Home = () => {
               lg="12"
               className="mb-4 text-center"
             >
-              <h6 className="section__subtitle">Our clients says</h6>
+              {/* <h6 className="section__subtitle">Our clients says</h6> */}
               <h2 className="section__title">Testimonials</h2>
             </Col>
             <Testimonial />
@@ -173,7 +177,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Experts</h6>
+              {/* <h6 className="section__subtitle">Experts</h6> */}
               <h2 className="section__title">Our Members</h2>
             </Col>
             <OurMembers />
@@ -183,7 +187,6 @@ const Home = () => {
       {/* =========== become a driver section ============ */}
 
       {/* =========== testimonial section =========== */}
-
 
       {/* =============== blog section =========== */}
       {/* <section data-aos="zoom-in" data-aos-duration="1700">
