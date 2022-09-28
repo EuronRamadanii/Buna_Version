@@ -120,6 +120,39 @@ const Home = () => {
           </Row>
         </Container>
       </section> */}
+
+
+      <Container style={{ marginTop: "50px", marginBottom: "50px" }}>
+        <Row className="client-con2">
+          <Col lg="6" md="9">
+            <div className="about__img">
+              <img
+                style={{ height: "300px" }}
+                src="https://www.pwc.com/gx/en/brand-simplified/teaser-images-670/automotive/damil-gettyimages-723504579-670.jpg"
+                alt=""
+                className="w-100"
+              />
+            </div>
+          </Col>
+
+          <Col lg="6" md="9">
+            <div className="about__section-content">
+              {/* <h4 className="section__subtitle">Clients</h4> */}
+              <h2 className="section__title">About Us</h2>
+              <h5 style={{ fontStyle: "24px", color: "#7c8a97" }}>
+                CONTEXT plant, berät und setzt Projekte im Bereich
+                Qualitätsmanagement und Prozessmanagement um. Zusätzlich
+                vermitteln wir unser Methodenwissen in Seminaren und Schulungen.
+                <br />
+                Mit unserem Know-how unterstützen wir Technologieunternehmen bei
+                der erfolgreichen Entwicklung und Optimierung von Produkten und
+                Prozessen.
+              </h5>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <BecomeDriverSection />
       <section data-aos="zoom-in" data-aos-duration="1700">
         <Container>
           <Row>
@@ -132,7 +165,6 @@ const Home = () => {
         </Container>
       </section>
       {/* =========== become a driver section ============ */}
-      <BecomeDriverSection />
 
       {/* =========== testimonial section =========== */}
       <section data-aos="zoom-in" data-aos-duration="1700">
