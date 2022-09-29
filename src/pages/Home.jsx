@@ -93,6 +93,7 @@ const Home = () => {
                 See our
               </h6> */}
               <h2
+                id="services"
                 data-aos="zoom-in"
                 data-aos-duration="1700"
                 className="section__title"
@@ -185,7 +186,9 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section>{/* <JobPosition /> */}</section>
+      <section>
+        <JobPosition />
+      </section>
       {/* =========== become a driver section ============ */}
 
       {/* =========== testimonial section =========== */}

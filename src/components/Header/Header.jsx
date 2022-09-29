@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 
 import { Container, Row, Col } from "reactstrap";
-import {  NavLink, useNavigate, useLocation } from "react-router-dom";
+import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import logo from "../../assets/all-images/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Dropdown from "react-bootstrap/Dropdown";
@@ -208,11 +208,11 @@ const Header = () => {
                     variant="secondary"
                     // dropdown-basic
                     id="Euroni"
-                  // style={{ color: "#6b6600" }}
+                    // style={{ color: "#6b6600" }}
 
-                  // className={(navClass) =>
-                  //   navClass.isActive ? "nav__active nav__item" : "nav__item"
-                  // }
+                    // className={(navClass) =>
+                    //   navClass.isActive ? "nav__active nav__item" : "nav__item"
+                    // }
                   >
                     Leistungen
                   </Dropdown.Toggle>
