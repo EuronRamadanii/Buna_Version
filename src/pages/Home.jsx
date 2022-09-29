@@ -128,7 +128,11 @@ const Home = () => {
         </Container>
       </section> */}
 
-      <Container style={{ marginTop: "50px", marginBottom: "50px" }}>
+      <Container
+        style={{ marginTop: "50px", marginBottom: "50px" }}
+        data-aos="zoom-in"
+        data-aos-duration="1700"
+      >
         <Row className="client-con2">
           <Col lg="6" md="9">
             <div className="about__img">
@@ -187,7 +191,7 @@ const Home = () => {
         </Container>
       </section>
       <section>
-        <JobPosition />
+        <JobPosition data-aos="zoom-in" data-aos-duration="1700" />
       </section>
       {/* =========== become a driver section ============ */}
 

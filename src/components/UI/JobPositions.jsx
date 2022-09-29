@@ -3,12 +3,16 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Card, Col, Button } from "react-bootstrap";
 import { Row } from "reactstrap";
+import Aos from "aos";
 
 function JobPosition() {
+  Aos.init({
+    once: false,
+  });
   return (
     <>
       <section style={{}}>
-        <Container className="p-4">
+        <Container className="p-4" data-aos="zoom-in" data-aos-duration="1700">
           <Row>
             <Col md="4" style={{ marginBottom: "20px" }}>
               {/* <Card> */}
