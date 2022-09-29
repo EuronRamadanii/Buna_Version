@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Card, Col, Button } from "react-bootstrap";
 import { Row } from "reactstrap";
 import Aos from "aos";
+import "../../styles/jobPosition.css";
 
 function JobPosition() {
   Aos.init({
@@ -45,10 +46,7 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie
                   </Card.Text>
-                  <Button
-                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
-                    variant="primary"
-                  >
+                  <Button className="button" variant="primary">
                     More Details
                   </Button>
                 </Card.Body>
@@ -69,10 +67,7 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie
                   </Card.Text>
-                  <Button
-                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
-                    variant="primary"
-                  >
+                  <Button className="button" variant="primary">
                     More Details
                   </Button>
                 </Card.Body>
@@ -94,10 +89,7 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie
                   </Card.Text>
-                  <Button
-                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
-                    variant="primary"
-                  >
+                  <Button className="button" variant="primary">
                     More Details
                   </Button>
                 </Card.Body>
@@ -115,10 +107,7 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie e
                   </Card.Text>
-                  <Button
-                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
-                    variant="primary"
-                  >
+                  <Button className="button" variant="primary">
                     More Details
                   </Button>
                 </Card.Body>
@@ -136,10 +125,7 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie e
                   </Card.Text>
-                  <Button
-                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
-                    variant="primary"
-                  >
+                  <Button className="button" variant="primary">
                     More Details
                   </Button>
                 </Card.Body>
