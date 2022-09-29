@@ -41,7 +41,10 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie
                   </Card.Text>
-                  <Button style={{ float: "right" }} variant="primary">
+                  <Button
+                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
+                    variant="primary"
+                  >
                     More Details
                   </Button>
                 </Card.Body>
@@ -62,7 +65,10 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie
                   </Card.Text>
-                  <Button style={{ float: "right" }} variant="primary">
+                  <Button
+                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
+                    variant="primary"
+                  >
                     More Details
                   </Button>
                 </Card.Body>
@@ -84,7 +90,10 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie
                   </Card.Text>
-                  <Button style={{ float: "right" }} variant="primary">
+                  <Button
+                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
+                    variant="primary"
+                  >
                     More Details
                   </Button>
                 </Card.Body>
@@ -102,7 +111,10 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie e
                   </Card.Text>
-                  <Button style={{ float: "right" }} variant="primary">
+                  <Button
+                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
+                    variant="primary"
+                  >
                     More Details
                   </Button>
                 </Card.Body>
@@ -120,7 +132,10 @@ function JobPosition() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras vitae molestie magna. Vivamus sed molestie e
                   </Card.Text>
-                  <Button style={{ float: "right" }} variant="primary">
+                  <Button
+                    style={{ float: "right", backgroundColor: "#fe7e4b" }}
+                    variant="primary"
+                  >
                     More Details
                   </Button>
                 </Card.Body>
