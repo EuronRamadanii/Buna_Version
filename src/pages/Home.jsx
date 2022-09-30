@@ -102,12 +102,12 @@ const Home = () => {
               </h2>
             </Col>
             {/* <Col>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, necessitatibus.</Col> */}
-            <h3>
+            <h4>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
               sit illo odit! Quisquam, explicabo ducimus! Lorem, ipsum dolor sit
               amet consectetur adipisicing elit. Aut officiis facilis voluptas
               ex optio magnam!
-            </h3>
+            </h4>
             <ServicesList />
           </Row>
         </Container>

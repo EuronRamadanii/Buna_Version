@@ -39,7 +39,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="4" md="4" sm="12" className="foterlogo">
-            <div className="logo footer__logo" style={{marginBottom: '130px'}}>
+            <div className="logo footer__logo" style={{ marginBottom: "60px" }}>
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   {/* <i class="ri-car-line"></i> */}
@@ -50,7 +50,7 @@ const Footer = () => {
                 </Link>
               </h1>
             </div>
-            <img src={CC} alt="" />
+            <img style={{ height: "100px" }} src={CC} alt="" />
             {/* <p className="footer__logo-content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
